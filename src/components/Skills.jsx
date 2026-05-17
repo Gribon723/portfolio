@@ -102,7 +102,7 @@ export default function Skills() {
               {items.map(item => (
                 <span
                   key={item}
-                  className="px-2.5 py-1 text-xs font-mono text-[#64748B] bg-[#080D1A] border border-[#1A2540] rounded"
+                  className="px-2.5 py-1 text-xs font-mono text-[#94A3B8] bg-[#0D1426] border border-[#2A3550] rounded"
                 >
                   {item}
                 </span>

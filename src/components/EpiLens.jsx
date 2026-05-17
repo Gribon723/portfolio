@@ -210,7 +210,7 @@ export default function EpiLens() {
             {TECH.map(t => (
               <span
                 key={t}
-                className="px-3 py-1 text-xs font-mono text-[#94A3B8] border border-[#1A2540] rounded hover:border-[#00C9B1] hover:text-[#00C9B1] transition-colors duration-200 cursor-default"
+                className="px-3 py-1 text-xs font-mono text-[#94A3B8] bg-[#080D1A] border border-[#2A3550] rounded hover:border-[#00C9B1] hover:text-[#00C9B1] transition-colors duration-200 cursor-default"
               >
                 {t}
               </span>

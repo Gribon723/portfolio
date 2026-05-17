@@ -15,31 +15,27 @@
   --font-mono: 'JetBrains Mono', monospace;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 
-html {
-  scroll-behavior: smooth;
-}
+  body {
+    background-color: #080D1A;
+    color: #E2E8F0;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
 
-body {
-  background-color: #080D1A;
-  color: #E2E8F0;
-  font-family: 'Inter', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
-}
+  #root {
+    width: 100%;
+  }
 
-#root {
-  width: 100%;
-}
-
-::selection {
-  background-color: #00C9B1;
-  color: #080D1A;
+  ::selection {
+    background-color: #00C9B1;
+    color: #080D1A;
+  }
 }
 
 ::-webkit-scrollbar {
